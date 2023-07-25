@@ -1,0 +1,23 @@
+{
+    "folders":
+    [
+        {
+            "path": ".",
+        },
+        {
+			"path": "/Users/cramerml/Library/Application Support/Sublime Text/Packages/Teenage",
+		},
+        {
+			"path": "/Users/cramerml/Library/Application Support/Sublime Text/Packages/MD LD"
+		},
+    ],
+    "build_systems":[
+        {
+            "name": "Build Theme",
+            "shell_cmd": "make build",
+        }
+    ],
+    "debugger_configurations":
+    [
+    ],
+}

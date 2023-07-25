@@ -1,0 +1,32 @@
+[project]
+name = "sublThemer"
+version = "0.0.1"
+dependencies = [
+    'json5',
+    'importlib-metadata; python_version<"3.8"',
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+sublThemer = "sublThemer.cli:main"
+
+[tool.black]
+line-length = 79
+target-version = ['py39']
+include = '\.pyi?$'
+extend-exclude = '''
+# A regex preceded with ^/ will apply only to files and directories
+# in the root of the project.
+^/foo.py  # exclude a file named foo.py in the root of the project (in addition to the defaults)
+'''
+
+[tool.pyright]
+pythonVersion = '3.9'
+venvPath = ''
+venv = ''

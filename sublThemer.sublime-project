@@ -5,10 +5,10 @@
             "path": ".",
         },
         {
-			"path": "/Users/cramerml/Library/Application Support/Sublime Text/Packages/Teenage",
+			"path": "~/Library/Application Support/Sublime Text/Packages/Teenage",
 		},
         {
-			"path": "/Users/cramerml/Library/Application Support/Sublime Text/Packages/MD LD"
+			"path": "~/Library/Application Support/Sublime Text/Packages/MD LD"
 		},
     ],
     "build_systems":[
